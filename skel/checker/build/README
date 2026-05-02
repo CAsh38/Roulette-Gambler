@@ -1,0 +1,25 @@
+Task 1: Rezolvarea exercitiului a fost fun. Pentru a rezolva itemul
+        a fost nevoie de a folosi o copie a elementului anterior si o copie a elementului 
+        matrix[i][j].
+        1. Se salveaza copia elementului matricei ca copy_elem
+        2. Elementul metricei primeste valoarea copiei elementului anterior(matrix[i][j] = copy)
+        3. Copia elementului anterior primeste valoarea elementului matricei inainte de schimbare
+                (copy = copy_elem)
+        4. Repeat
+Task 2: Intai si intai se face check pentru cea mai mare combinatie pe fiecarel linie.
+        Bonusul este luat in considerare dat fiind fapt ca daca elementul salvat(acesta fiind record_symbol)
+        este 7 atunci se adauga inca o data nr de aparitii a lui 7.
+        Dupa se face mai intai check pentru un cross si numai dupa pentru diagonale
+        Bonusul pentru 7 ese luat in considerare
+        In ultimul rand se ia in considerare bonusul pentru 2 sau 4 tipuri de simboluri maxim
+Task 3: Se folosesc functiile construite pentru task 1 si 2
+Task 4: Se ia in considerare toate cazurile. Se inlocuieste fiecare simbol cu o cifra intre 0,
+        dupa se calculeaza scorul
+Task 5: Abordarea este tot aceeasi ca si la task 4. Se ia prima coloana, coloana 0 din matrice, iar a 2-a
+        coloana nr 1 din matrice. Se face spin la coloana a 2-a cu 1 pozitie, dupa se calculeaza scorul.
+        Operatia se repeta pana toata coloana nu se invarte la pozitia initiala. Dupa aceasta se invarte coloana
+        nr1 jos cu o pozitie. Se repeta iarasi procesul pentru toate varinatele. Cand se invarte la pozitia initiala
+        coloana nr1, coloana nr2 devine coloana urmatoare, repetand procesul. Cand coloana nr2 devine ultima
+        coloana si termina sa se invarte prima coloana la pozitia initiala, coloana nr1 devine coloana urmatoare
+        adica a 2-a in matrice
+Task 6: Se face parcurgerea matricei cu ajutorul algoritmului dijkstra si Deep-First-Search

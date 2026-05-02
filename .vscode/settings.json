@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "task_1_funct.h": "c",
+        "task_3_funct.h": "c",
+        "task_2_funct.h": "c",
+        "task_5_funct.h": "c",
+        "test_funct.h": "c",
+        "definitions.h": "c"
+    }
+}
